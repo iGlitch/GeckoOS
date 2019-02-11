@@ -1,0 +1,4 @@
+1. place dol file called binary.dol in the folder.
+2. double click the makec.bat file, this will pack the binary and give two output source files.
+3. copy binary.c and binary.h into the source folder (will over write existing).
+4. Now change the .ld to entrypoint 80004000 and compile (important)

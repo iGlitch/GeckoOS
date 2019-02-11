@@ -1,0 +1,4 @@
+default:
+hooktype = 1
+vidtv = 1
+002fix = 1
