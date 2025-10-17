@@ -25,7 +25,7 @@ INCLUDES	:=
 # options for code generation
 #---------------------------------------------------------------------------------
 
-CFLAGS	= -O2 -mrvl -Wall $(MACHDEP) $(INCLUDE)
+CFLAGS	= -O2 -mrvl -Wall $(MACHDEP) $(INCLUDE) -Wno-incompatible-pointer-types -Wno-return-mismatch -Wno-int-conversion
 CXXFLAGS	=	$(CFLAGS)
 
 LDFLAGS	=	$(MACHDEP) -mrvl -Wl,-Map,$(notdir $@).map,--section-start,.init=0x80dfff00

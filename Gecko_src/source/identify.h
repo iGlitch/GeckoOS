@@ -10,9 +10,9 @@
 #define TITLE_LOWER(x)		((u32)(x))
 
 // Boot index
-u16 bootindex;
+extern u16 bootindex;
 
-u32 bootid;
+extern u32 bootid;
 
 // Function prototypes
 void codehandler_rebooter();

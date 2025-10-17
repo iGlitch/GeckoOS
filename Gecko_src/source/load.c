@@ -5,7 +5,7 @@
 #include <time.h>
 #include <gccore.h>
 #include <ogcsys.h>
-
+#include <wiiuse/wpad.h>
 #include "load.h"
 #include "tools.h"
 #include "relos.h"

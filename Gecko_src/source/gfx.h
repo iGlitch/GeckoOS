@@ -9,7 +9,7 @@ void gfx_printf(u8 *font,s32 x,s32 y,u8 alpha, char *fmt, ...);
 void gfx_draw_image(f32 xpos, f32 ypos, u16 width, u16 height, u8 data[], float degrees, float scaleX, f32 scaleY, u8 alpha);
 void gfx_drawtile(f32 xpos, f32 ypos, u16 width, u16 height, u8 data[], float degrees, float scaleX, f32 scaleY, u8 alpha, f32 frame,f32 maxframe);
 void gfx_draw_stars();
-void gfx_init_stars();
+extern void gfx_init_stars();
 void gfx_load_gfx1();
 //---------------------------------------------------------------------------------
 extern void *xfb[2];

@@ -720,7 +720,7 @@ char * display_tmd_info(const tmd *t) {
 	char title_ascii[5];
 	u32 i;
 	memcpy(title_ascii, &title_l, 4);
-	for (i=0; i<4; i++) title_ascii[i]=ascii(title_ascii[i]);
+	for (i=0; i<4; i++) title_ascii[i]=(char)(title_ascii[i]);
 	title_ascii[4]='\0';
 	
 	switch (kind) {

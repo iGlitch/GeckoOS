@@ -7,8 +7,7 @@
 #define MAX_FILENAME_LEN	128
 #define MAX_FILEPATH_LEN	256
 
-u32 sd_found;
-
+extern u32 sd_found;
 
 //---------------------------------------------------------------------------------
 void sd_refresh();

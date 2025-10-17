@@ -13,7 +13,7 @@
 u8 config_bytes[no_config_bytes] ATTRIBUTE_ALIGN(32);
 
 void usb_flushnew(s32 chn);
-
+u32 sd_found;
 
 //---------------------------------------------------------------------------------
 u32 sd_shutdown()

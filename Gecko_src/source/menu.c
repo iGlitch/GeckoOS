@@ -2759,6 +2759,8 @@ s32 menu_generatechannellist(bool preinit)
 	return 1;
 }
 
+extern void menu_showdirlist(struct foundfile *list, int top, int sel);
+
 //---------------------------------------------------------------------------------
 static void menu_drawfile()
 //---------------------------------------------------------------------------------

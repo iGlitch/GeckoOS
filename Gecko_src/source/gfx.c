@@ -37,7 +37,7 @@ u8 widescreen = 0;
 u8 alphapng = 0;
 
 Mtx GXmodelView2D;
-GXRModeObj *rmode;
+//GXRModeObj *rmode;
 u8 *tex_logo1;
 u8 *tex_font1;
 u8 *bubblegfx;
@@ -465,6 +465,8 @@ void gfx_int_stars()
 		stars[i].size = ((float) rand()) / RAND_MAX;
 	}
 }
+
+void gfx_init_stars(){}
 
 //---------------------------------------------------------------------------------
 static void gfx_draw_new_star(int i)

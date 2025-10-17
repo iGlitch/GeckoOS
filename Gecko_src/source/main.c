@@ -40,6 +40,9 @@ u8 loaderhbc = 0;
 u8 startupiosloaded = 0;
 u8 progmode = 0;
 
+extern void gfx_render_direct();
+extern void gfx_init_stars();
+
 //---------------------------------------------------------------------------------
 static void power_cb()
 //---------------------------------------------------------------------------------
@@ -287,7 +290,7 @@ slotb:
 		gecko_channel = 2;
 	}
 
-	gfx_int_stars();
+	gfx_init_stars();
 	
 	while(1)
 	{
